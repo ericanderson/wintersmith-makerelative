@@ -1,6 +1,6 @@
 {
   "name": "wintersmith-makerelative",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Ensures you no longer have to deal with baseUrl in wintersmith.",
   "main": "lib/",
   "scripts": {
@@ -14,7 +14,6 @@
   "bugs": {
     "url": "http://github.com/ericanderson/wintersmith-makerelative/issues"
   },
-
   "author": "Eric Anderson <e@ericlanderson.com> (http://ericlanderson.com/)",
   "license": "BSD-2-Clause",
   "devDependencies": {
