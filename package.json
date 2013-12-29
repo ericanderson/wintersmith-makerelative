@@ -17,6 +17,6 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/vows test/* --spec",
-    "prepublish": "./bin/compile"
+    "prepublish": "./node_modules/.bin/coffee -o ./lib -b -c -m ./src"
   }
 }
