@@ -1,11 +1,14 @@
-wintersmith-makerelative
-==================
+# wintersmith-makerelative
 
 [Wintersmith makeRelative() helper](https://github.com/ericanderson/wintersmith-makerelative)
 
-Ensures you no longer have to deal with baseUrl in wintersmith.
+Ensures you no longer have to deal with baseUrl in [wintersmith][].
 
-Intended use is from something like a jade template:
+[wintersmith]: https://github.com/jnordberg/wintersmith
+
+## Example
+
+Intended use is from something similar to a jade template:
 
 ```jade
 link(rel='stylesheet', href=makeRelative(page.url, '/syntax.css'))
