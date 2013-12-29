@@ -1,0 +1,22 @@
+{
+  "name": "wintersmith-makerelative",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Anderson <e@ericlanderson.com> (http://ericlanderson.com/)",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "wintersmith": "2.x",
+    "coffee-script": "~1.6.3"
+  },
+  "peerDependencies": {
+    "wintersmith": "2.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/vows test/* --spec",
+    "prepublish": "./bin/compile"
+  }
+}
