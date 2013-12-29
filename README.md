@@ -3,6 +3,8 @@ wintersmith-makerelative
 
 [Wintersmith makeRelative() helper](https://github.com/ericanderson/wintersmith-makerelative)
 
+Ensures you no longer have to deal with baseUrl in wintersmith.
+
 Intended use is from something like a jade template:
 
 ```jade

@@ -1,11 +1,20 @@
 {
   "name": "wintersmith-makerelative",
   "version": "0.0.0",
-  "description": "",
+  "description": "Ensures you no longer have to deal with baseUrl in wintersmith.",
   "main": "lib/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/vows test/* --spec",
+    "prepublish": "./node_modules/.bin/coffee -o ./lib -b -c -m ./src"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericanderson/wintersmith-makerelative.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ericanderson/wintersmith-makerelative/issues"
+  },
+
   "author": "Eric Anderson <e@ericlanderson.com> (http://ericlanderson.com/)",
   "license": "BSD-2-Clause",
   "devDependencies": {
@@ -14,9 +23,5 @@
   },
   "peerDependencies": {
     "wintersmith": "2.x"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/vows test/* --spec",
-    "prepublish": "./node_modules/.bin/coffee -o ./lib -b -c -m ./src"
   }
 }
