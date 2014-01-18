@@ -25,7 +25,7 @@ That way the template can be used deep in hierarchies and will render the follow
 Install globally or locally using npm
 
 ```
-npm install [-g] wintersmith-plugin
+npm install [-g] wintersmith-makerelative
 ```
 
 and add `wintersmith-makerelative` to your config.json
